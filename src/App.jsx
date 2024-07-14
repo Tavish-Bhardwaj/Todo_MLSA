@@ -57,7 +57,7 @@ setShowFinished(!showFinished)
       <div className="mx-9 my-10 rounded-xl p-5 bg-blue-100 h-screen">
         <h1 className=' font-bold text-center text-3xl'>Do-It -Your Task-With-Your-Own-Style</h1>
         <div className="addTodo my-5 flex flex-col gap-4">
-          <h2 className='text-2xl font-bold '>Add a Todo</h2>
+          <h2 className='text-2xl font-bold '>Add a Todo Text.</h2>
           <div className="flex">
 
             <input type="text" onChange={handleChange} value={todo} className='w-full rounded-full px-5 py-1' />
@@ -66,10 +66,10 @@ setShowFinished(!showFinished)
         </div>
 
         <input type="checkbox" className='my-4' id='show' onChange={toggleFinished} checked={showFinished} />
-        <label htmlFor='show'className='mx-2'>Show Finished</label>
+        <label htmlFor='show'className='mx-2'>Show Finished Work.</label>
 
       <div className=' h-[1px] bg-black opacity-15 w-[90%] mx-auto my-2'></div>
-      <h2 className="text-2xl font-bold">Your Todos</h2>
+      <h2 className="text-2xl font-bold">Your Todos Work</h2>
       <div className="todos">
 {todos.length===0 && <div className='m-5'>
   No Todos to display</div>}
